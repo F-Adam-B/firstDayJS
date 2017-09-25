@@ -99,7 +99,9 @@ function yearOfBirth(age) {
 }
     
 function whoAmI(name, age) {
-  if (!name || name !== 'string' || !age || isNaN(age)) {console.error('Arguments not valid');}
+  if (!name || name !== 'string' || !age || isNaN(age)) {
+    console.error('Arguments not valid');
+  }
   const yob = yearOfBirth(age);
   console.log('Hi, my name is ' + name + ' and I\'m ' + age + ' years old.');
   console.log('I was born in ' + yob + ' .');
