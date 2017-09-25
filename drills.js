@@ -99,7 +99,7 @@ function yearOfBirth(age) {
 }
     
 function whoAmI(name, age) {
-  if (!name || name !== 'string' || !age || isNaN(age)) {
+  if (!name || typeof name !== 'string' || !age || isNaN(age)) {
     console.error('Arguments not valid');
   }
   const yob = yearOfBirth(age);
@@ -108,6 +108,7 @@ function whoAmI(name, age) {
 }
        
 whoAmI('Chris', 28);
+
   
   
   
