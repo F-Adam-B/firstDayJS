@@ -44,7 +44,7 @@
   
 // whoAmI('Chris', 29);
 
-//Excersize 6
+// Excersize 6
 
 // function yearOfBirth(age) {
 //   try {
@@ -65,7 +65,7 @@
 // whoAmI('Chris', -29);
 
 
-//Excersize 7 
+// Excersize 7 
 
 // function yearOfBirth(age) {
 //   try {
@@ -86,7 +86,7 @@
      
 // whoAmI();
 
-//Excersize 8
+// Excersize 8
   
 function yearOfBirth(age) {
   try {
